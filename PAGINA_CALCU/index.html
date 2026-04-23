@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Talento Lab - Demo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Web Interna</h1>
+        <form id="calc-form">
+            <div class="form-group">
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1" name="num1" placeholder="Ej: 10">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email de Reporte:</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com">
+                <span class="error-msg email" id="error-email">Formato de email inválido</span>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="acepta-condiciones" name="terminos">
+                <label for="acepta-condiciones">Acepto términos y condiciones</label>
+            </div>
+
+            <button type="button" id="btn-enviar" class="btn enviar">Enviar Datos</button>
+        </form>
+    </div>
+</body>
+</html>
+
+Elemento Atributo usado Selector CSS
+Campo Número 1/ id/ #num1
+Campo Email/ name/ input[name="email"]
+Botón Enviar/ class/ .btn.enviar
+Checkbox Términos/ id/ #acepta-condiciones
+Error debajo de email/ class/ .error-msg.email
